@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Halaman Biodata</legend>
+
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>NIM : <input type="text" name="nim"></p>
+            <p>Kelas :
+                <input type="radio" name="kelas" value="a" checked/> A
+                <input type="radio" name="kelas" value="b"/> B
+                <input type="radio" name="kelas" value="c"/> C
+                <input type="radio" name="kelas" value="d"/> D
+            </p>
+            
+        <p>
+            Jenis Kelamin :
+            <input type="radio" name="jk" value="laki-laki" checked/>
+                Laki - Laki
+            <input type="radio" name="jk" value="perempuan"/>
+                Perempuan
+        </p>
+        <p>
+            Peminatan yang disukai : <br>
+            <input type="checkbox" name="pemrograman"> Pemrograman
+            <input type="checkbox" name="data"> Data
+            <input type="checkbox" name="jaringan"> Jaringan
+            <input type="checkbox" name="desain"> Desain
+        </p>
+        <p>
+            Kota asal :
+            <select>
+                <option>Yogyakarta</option>
+                <option>Jakarta</option>
+                <option>Kebumen</option>
+            </select>
+        </p>
+       <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+
+    <button class="back"><a href="index.html">Home</a></button>
+</body>
+</html>
